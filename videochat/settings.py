@@ -147,6 +147,16 @@ CHANNEL_LAYERS = {
     },
 }
 
+# CACHES = {
+#     "default": {
+#         "BACKEND": "channels_redis.core.RedisCache",
+#         'location': [("127.0.0.1", 6379)],
+#         "OPTIONS": {
+#             "CLIENT_CLASS": "django.redis.client.DefaultClient"
+#         },
+#     },
+# }
+
 # CHANNEL_LAYERS = {
 #     "default": {
 #         "BACKEND": "channels.layers.InMemoryChannelLayer"
